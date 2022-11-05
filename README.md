@@ -1,1 +1,1 @@
-# 3Tier_WordPressApp
+# 3TierArch_WordPressApp
