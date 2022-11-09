@@ -240,7 +240,7 @@ Resources:
     Properties:
       GroupName: SecurityGroup-08
       GroupDescription: Open HTTP (port 80) and SSH (port 22)
-      VpcId: !Ref 'cloudVPC'
+      VpcId: !Ref 'VPC'
       SecurityGroupIngress:
         - IpProtocol: tcp
           FromPort: 80
